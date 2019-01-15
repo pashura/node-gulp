@@ -1,2 +1,3 @@
 # node-gulp
-Run a gulp task in a docker container
+
+Docker image with pre-installed gulp and jspm

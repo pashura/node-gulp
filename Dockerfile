@@ -2,8 +2,9 @@ FROM node:6.16.0
 
 LABEL maintainer="Mykyta Pashura <rowdyswa@gmail.com>"
 
-# Install Gulp
-RUN npm install gulp-cli -g
+# Install Gulp and JSMP
+RUN npm install -g gulp-cli@4.0.0 /
+                   jspm@0.16.23
 
 # Define working directory.
 WORKDIR /workspace
